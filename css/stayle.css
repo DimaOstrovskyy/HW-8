@@ -1,0 +1,76 @@
+.logo h1 {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.text1 li {
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.monday {
+    background: #ff0000;
+}
+
+.tuesday {
+    background: #00ff00;
+}
+
+.wednesday {
+    background: #0000ff;
+}
+
+.thursday {
+    background: #ffff00;
+}
+
+.friday {
+    background: #00ffff;
+}
+
+.text1 li:hover {
+    background: #333;
+    color: #fff;
+}
+
+.text1 li:active {
+    transform: scale(1.98);
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+.text1 li:first-child {
+    font-weight: bold;
+}
+
+.text1 li:last-child {
+    font-style: italic;
+}
+
+.text1 li:nth-child(even) {
+    background: #0098fd;
+}
+
+.text1 li:nth-child(odd) {
+    background: #e00000e1;
+}
+
+.text1 li:nth-of-type(2) {
+    text-transform: uppercase;
+}
